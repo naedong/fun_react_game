@@ -1,0 +1,25 @@
+.mdc-image-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.mdc-image-list__item {
+    list-style-type: none;
+    border: 1px solid;
+}
+
+.mdc-image-list__supporting {
+    color: rgba(0, 0, 0, 0.87);
+    color: var(--mdc-theme-text-primary-on-background, rgba(0, 0, 0, 0.87));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 8px 5px;
+    line-height: 24px;
+}
